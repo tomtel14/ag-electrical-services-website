@@ -1,0 +1,7 @@
+.banner-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../images/fixed-background.jpg') center/cover fixed no-repeat;
+}
+
+.banner-container {
+  padding: 150px 0;
+}

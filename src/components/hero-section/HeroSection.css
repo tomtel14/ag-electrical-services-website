@@ -1,0 +1,144 @@
+.hero-section {
+  background-color: #fff;
+}
+
+.hero-section-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  max-width: 1170px;
+}
+
+.image-container {
+  position: relative;
+  color: white;
+}
+
+.cta-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nic-logo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 30%;
+}
+
+.main-title {
+  font-size: 1.7rem;
+}
+
+.strapline {
+  font-size: 1.2rem;
+}
+
+.main-text-cont {
+  position: absolute;
+  top: 50%;
+  padding-left: 15px;
+  transform: translateY(-50%);
+}
+
+.areas-list-container {
+  width: 100%;
+  background-color: #7A7D7D;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.areas-text {
+  padding: 10px 0;
+}
+
+.intro {
+  display: none;
+}
+
+.areas-list {
+  padding-top: 5px;
+  list-style: inside;
+}
+
+.black-heading {
+  color: black;
+}
+
+.lightning {
+  margin-right: 5px;
+}
+
+.call-us-cont {
+  padding-top: 10px;
+}
+
+@media (min-width: 960px) {
+  .hero-section-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .image-container {
+    width: 65%;
+  }
+  .areas-list-container {
+    width: 35%;
+  }
+  .areas-section {
+    width: 100%;
+  }
+  .call-us-cont {
+    margin-top: auto;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .main-text-cont {
+    line-height: 1.7;
+  }
+  .strapline {
+    font-size: 1.4rem;
+  }
+}
+
+.call-us-now {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.number {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+@media (min-width: 1250px) {
+  .main-text-cont {
+    letter-spacing: 1px;
+  }
+  .main-title {
+    font-size: 2.5rem;
+  }
+  .strapline {
+    font-size: 1.5rem;
+  }
+  .intro {
+    display: block;
+  }
+  .areas {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-section-container {
+    width: 90%;
+  }
+}
+
+

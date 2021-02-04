@@ -1,0 +1,36 @@
+.services-section {
+  background: #fff;
+  padding-bottom: 50px;
+}
+
+.services-section-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 1170px;
+}
+
+.services-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+}
+
+.service-cards {
+  list-style-type: none;
+  display: block;
+}
+
+@media (min-width: 933px) {
+  .service-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 420px) {
+  .services-section-container {
+    width: 90%;
+  }
+}

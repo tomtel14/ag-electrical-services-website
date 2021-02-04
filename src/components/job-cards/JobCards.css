@@ -1,0 +1,35 @@
+.jobs-section-container {
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.jobs-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.job-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px 15px;
+}
+
+@media (min-width: 960px) {
+  .job-cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .job-cards {
+    display: block;
+  }
+  .job-item {
+    margin-bottom: 15px;
+  }
+  .jobs-section-container {
+    padding-bottom: 0;
+  }
+}
+

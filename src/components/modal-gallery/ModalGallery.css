@@ -1,0 +1,59 @@
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  cursor: zoom-out;
+}
+
+.modal-img-cont {
+  width: 60%;
+  height: auto;
+  position: relative;
+  z-index: 2001;
+  cursor: default;
+}
+
+.modal-img-cont-portrait {
+  width: 550px;
+  height: auto;
+  position: relative;
+  z-index: 2001;
+  cursor: default;
+}
+
+.modal-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1002;
+  padding-right: 15px;
+}
+
+.close-btn {
+  position: absolute;
+  top: -25px;
+  right: 15px;
+  color: #fff;
+  opacity: 0.8;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.close-btn:hover {
+  opacity: 1;
+}
+
+.modal-open {
+  height: 100vh;
+  overflow-y:hidden;
+  padding-right: 15px;
+}
+
+
+

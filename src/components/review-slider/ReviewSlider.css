@@ -1,0 +1,137 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.section-center {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.section-center article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.section-center article.activeSlide {
+  position: relative;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.section-center article.lastSlide {
+  transform: translateX(-100%);
+}
+
+.section-center article.nextSlide {
+  transform: translateX(100%);
+}
+
+.review-image-container {
+  width: 100%;
+  border-top: 5px solid #D0CFCF;
+  border-bottom: 5px solid #D0CFCF;
+  border-left: 5px solid #D0CFCF;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.review-image-container img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.review-text-container {
+  background-color: #7a7d7d;
+  padding: 20px 40px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  color: #fff;
+  border-top: 5px solid #D0CFCF;
+  border-bottom: 5px solid #D0CFCF;
+  border-right: 5px solid #D0CFCF;
+}
+
+.quote-left, .quote-right {
+  position: absolute;
+  font-size: 3rem;
+  opacity: 0.15;
+}
+
+.quote-left {
+  top: 20px;
+  left: 20px;
+}
+
+.quote-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+.review-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  font-size: 2rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  background-color: #D0CFCF;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: red;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.6);
+  outline: none;
+}
+
+.prev {
+  left: 0;
+  transform: translate( -50%, -50%);
+}
+
+.next {
+  right: 0;
+  transform: translate(50%, -50%); 
+}
+
+.prev:hover {
+  background-color: #7A7D7D;
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.next:hover {
+  background-color: #7A7D7D;
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+@media (min-width: 960px) {
+  .prev, .next {
+    font-size: 3rem;
+  }
+}
+

@@ -1,0 +1,16 @@
+
+.job-item {
+  background-color: #D0CFCF;
+  color: black;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.bolt {
+  color: red;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+

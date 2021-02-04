@@ -1,0 +1,27 @@
+.footer-section {
+  background-color: black;
+  color: #fff;
+  height: 100px;
+}
+
+.footer-section-container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section-container p {
+  font-size: 0.8rem;
+}
+
+.footer-section-container a {
+  color: #fff;
+}
+
+.footer-section-container a:hover {
+  color: #7a7d7d;
+}
