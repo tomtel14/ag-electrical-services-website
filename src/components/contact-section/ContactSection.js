@@ -10,7 +10,7 @@ function ContactSection({ isHomePage }) {
         <h1 className="contact-title">Contact</h1>
         <div className="contact-info-container">
           <div className="contact-text-cont">
-            <p>Hi, I'm Ashley Gambrill from AG Electrical Services. We are based in London N20 and are delighted to offer our services across North London and Hertfordshire. Please feel free to get in touch with any concerns that you have regarding electrical work. We'd love to be able to help, no matter the size or complexity of the job.</p>
+            <p>Hi, I'm Ashley Gambrill from AG Electrical Services. We are based in Hatfield, Hertfordshire and are delighted to offer our services across Hertfordshire and North London. Please feel free to get in touch with any concerns that you have regarding electrical work. We'd love to be able to help, no matter the size or complexity of the job.</p>
           </div>
           <div className="contact-details-cont">
             <div className="contact-details">
