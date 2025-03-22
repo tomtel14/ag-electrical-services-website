@@ -22,8 +22,12 @@ function HeroSection() {
           <div className="areas">
             <h2 className="black-heading">Areas Covered:</h2>
             <ul className="areas-list">
-              <li className="areas-list-item">North London</li>
               <li className="areas-list-item">Hertfordshire</li>
+              <li className="areas-list-item">Hatfield</li>
+              <li className="areas-list-item">St. Albans</li>
+              <li className="areas-list-item">Welwyn Garden City</li>
+              <li className="areas-list-item">Welham Green</li>
+              <li className="areas-list-item">North London</li>
             </ul>
           </div>
           <p className="areas-text-2"></p>
